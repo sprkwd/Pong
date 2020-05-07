@@ -11,10 +11,10 @@ game_window.tracer(0) # stops window updating so we have to manually update it. 
 
 # paddle A (left)
 paddle_a = turtle.Turtle()
-paddle_a.speed(0) # speed of animation... MAXimim
+paddle_a.speed(0) # set the speed of animation to maximum
 paddle_a.shape("square")
 paddle_a.color("white")
-paddle_a.penup() # turtle draws lines as its moving
+paddle_a.penup() # turtle draws lines as its moving so this command stops it
 paddle_a.goto(-350, 0)
 
 # Paddle B (right)
