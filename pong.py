@@ -12,3 +12,4 @@ game_window.tracer(0) # stops window updating so we have to manually update it. 
 # main game loop (all games need this)
 while True:
     game_window.update()
+    
