@@ -1,2 +1,2 @@
 # Pong
- pong in python
+Pong. Written in Python using the turtle library
